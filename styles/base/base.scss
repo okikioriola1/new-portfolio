@@ -40,6 +40,10 @@ html {
     background: $color-gray;
     border-radius: 50%;
     display: block;
+    @include media ("<=phone"){
+        display: none;
+    }
+
   }
 
   .home-loader {

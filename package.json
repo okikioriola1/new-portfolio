@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite /*.html",
+    "build": "vite build /*.html",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,7 +14,8 @@
     "normalize-wheel": "^1.0.1",
     "prefix": "^1.0.0",
     "sass": "^1.66.1",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-html": "^3.2.0"
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
