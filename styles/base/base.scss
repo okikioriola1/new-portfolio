@@ -134,6 +134,9 @@ html {
         @include media("<=mobile"){
             font-size:30px ;
         }
+        @include media("<=phone"){
+            font-size:25px ;
+        }
     }
 
     span {
@@ -571,6 +574,16 @@ html {
                     font-weight: 400;
                     line-height: 24px;
                     letter-spacing: -0.51px;
+                    a{
+                        color: #8E8E8E;
+                        font-family: "Hanken Grotesk";
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: -0.51px;
+                        text-decoration: underline;
+                    }
                 }
             }
         }

@@ -147,7 +147,7 @@
                 @include media("<=mobile"){
                    display: block;
                    width:50%;
-                   margin:3rem auto 0 auto;
+                   margin:3rem 0;
                 }
                   
             }
@@ -186,9 +186,11 @@
                 padding-top:1rem;
                 @include media("<=mobile"){
                     font-size:22px;
+                    width: 80%;
                 }
                 @include media("<=phone"){
-                    font-size:20px;
+                    font-size:18px;
+                    width:87%
                 }
 
                 .grey-p{
@@ -203,11 +205,24 @@
                     font-size:22px;
                 }
                 @include media("<=phone"){
-                    font-size:20px;
+                    font-size:18px;
                 }
 
                 }
             }
+        }
+        .desktop{
+            @include media("<=phone"){
+                display: none;
+            }
+
+        }
+        .phone{
+            display: none;
+            @include media("<=phone"){
+                display: block;
+            }
+
         }
 
         }
